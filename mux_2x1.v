@@ -1,0 +1,11 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+
+module mux(
+input a,b,
+input sel,
+output out
+    );
+    assign out = sel?b:a;
+   
+endmodule
